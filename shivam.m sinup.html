@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="shortcut icon" href="/sample projects/sampleProjects/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Josefin+Sans&family=Kolker+Brush&family=Silkscreen:wght@700&display=swap');
+        *{
+            margin: 0;
+            padding: 0;N
+            box-sizing: border-box;
+           font-family: 'Josefin Sans', sans-serif;;
+        }
+        
+        
+        .outer-box{
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(to top left, rgb(216, 187, 70), rgb(238, 75, 34));
+        }
+        .inner-box{
+            width: 400px;
+            margin: 0 auto;
+            position: relative;
+            top: 20%;
+            transform: translateY(-50);
+            padding: 20px 40px;
+            background: linear-gradient(to top left, #ffffffff, #ffffff33);
+            backdrop-filter: blur(8px);
+            border-radius: 20px;
+            box-shadow: 4px 3px 3px rgb(228, 145, 29);
+
+        }
+
+
+      h1{
+        font-size: 2.5rem;
+        color: #212122;
+      }
+
+      .signup-header{
+        font-size: 0.9rem;
+        color: #555
+      }
+      .signup-body{
+        margin: 20px 0;
+      }
+
+      .signup-body p{
+        margin: 20px 0;
+      }
+
+      .signup-body p label{
+        display: block;
+        font-weight: bold;
+      }
+
+      .signup-body p input{
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #cccc;
+        border-radius: 4px;
+        font-size: 1rem;
+        margin-top: 4px;
+      }
+
+      .signup-body p input[type="submit"]{
+        background-color: rgb(23, 153, 245);
+        border: none;
+        color:rgb(246, 238, 238);
+        cursor: pointer
+      }
+      
+      .signup-body p input[type="submit"]:hover{
+        background-color: rgb(9, 96, 135);
+      }
+      .signup-footer p{
+        color: rgb(243, 74, 74);
+        
+
+      }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    
+        <div class="outer-box">
+            <div class="inner-box">
+                <header class="signup-header">
+                    <h1>Sign Up!</h1>
+                    <p> It just takes 30 seconds</p>
+                </header>
+                <main class="signup-body">
+                    <form action="#">
+                        <p>
+                            <label for="fullname">Full Name</label>
+                            <input type="text" name="" id="fullname" placeholder="eg: Shivam mishra">
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" name="" id="email" placeholder="eg: itsmemishrashivam@gmail.com">
+                        </p>
+                        <p>
+                            <label for="passwoed">Password</label>
+                            <input type="password" name="" id="passwoed" placeholder="at least 8 characters">
+                        </p>
+                        <p>
+                        
+                            <input type="submit" name="" id="submit" value="Create Account">
+                        </p>
+                    </form>
+                </main>
+                
+                <footer class="signup-footer">
+                    <p>Already have an account? <a href="#">Login</a></p>
+                </footer>
+
+
+            </div>
+
+        </div>
+    
+</body>
+</html>
